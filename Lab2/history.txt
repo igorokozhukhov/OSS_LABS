@@ -1,0 +1,43 @@
+    1  mkdir test
+    2  cd test/
+    3  touch file
+    4  ll file
+    5  chmod 000 file
+    6  ll file 
+    7  echo "test"
+    8  echo "test" > file
+    9  cat file
+   10  chmod 200
+   11  chmod 200 file
+   12  ll file 
+   13  echo "test" > file
+   14  cat file
+   15  chmod 240
+   16  chmod 240 file
+   17  ll file
+   18  cat file 
+   19  chmod 640 file
+   20  ll file
+   21  cat file
+   22  mkdir dir
+   23  touch dir/new_file
+   24  echo "file 2" > dir/new_file 
+   25  ll dir/
+   26  ls -la
+   27  chmod -x dir
+   28  ll
+   29  cat dir/new_file 
+   30  rm dir/new_file 
+   31  chown root file 
+   32  chown root:root file 
+   33  umask 0077
+   34  touch file1
+   35  ll file1
+   36  umask 0111
+   37  touch file2
+   38  ll file2
+   39  cat file
+   40  ll file
+   41  cat file
+   42  ls -lR > lslr_result.txt
+   43  history > history.txt
