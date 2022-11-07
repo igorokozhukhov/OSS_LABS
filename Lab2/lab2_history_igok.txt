@@ -1,0 +1,195 @@
+1  whoami
+    2  whoaim
+    3  whoami
+    4  echo "Hello World"
+    5  date
+    6  cal
+    7  cal -3
+    8  clear
+    9  pwd
+   10  cd /
+   11  cd ..
+   12  pwd
+   13  ls
+   14  ls \var
+   15  cd ~
+   16  ls -l
+   17  cd ..
+   18  pwd
+   19  echo "/home"
+   20  cd
+   21  ls -1
+   22  mkdir fruits
+   23  cd exit
+   24  cd /
+   25  mkdir ~/animals
+   26  cd
+   27  pwd
+   28  ls -l
+   29  touch tmp/temp/
+   30  touch /tmp/temp
+   31  cd /fruits
+   32  cd ../home/igok/fruits
+   33  pwd
+   34  ls-l
+   35  ls -l
+   36  cd ..
+   37  cd /
+   38  cd ../home/igok/fruits
+   39  touch apple banana pineaple lion
+   40  ls -l
+   41  touch ~/animals/cat.txt ~/animals/dog.txt ~/animals/elephant.txt
+   42  stat apple
+   43  ls b*
+   44  ls a*
+   45  ls b* i*
+   46  cp /etc/passwd ~
+   47  cat /etc/issue
+   48  cp /etc/issue cat
+   49  mv lion ~/animals
+   50  ls
+   51  cat cat
+   52  mv pineaple pineaple
+   53  mv pineaple pineapple
+   54  wc /etc/passwd
+   55  cd ~
+   56  ln -s /etc/passwd passwd_link
+   57  ln .bash_history history_hard
+   58  ls . bash_history
+   59  ls .bash_history
+   60  history
+   61  1n .bash_history history_hard
+   62  ln .bash_history history_hard
+   63  ls-1 history_hard
+   64  ls-l history_hard
+   65  ls -1 history_hard
+   66  cd
+   67  ls
+   68  ln .bafh_history history_hard
+   69  ln .bash_history history_hard
+   70  ln ~/.bash_history history_hard
+   71  cd ..
+   72  cd ~
+   73  ls
+   74  root
+   75  sudo ln ~/.bash_history history_hard
+   76  cd home/igok/
+   77  cd /home/igok/
+   78  ln .bash_history history_hard
+   79  history
+   80  rm -f fruits/apple 
+   81  mkdir rmme
+   82  rmdir rmme
+   83  rmdir fruits
+   84  rmdir -fr fruits
+   85  rm -fr fruits
+   86  cat /etc/passwd | cat /var/log/boot.log 
+   87  cp /etc/init.d/ ~
+   88  cp -r /etc/init.d/ ~
+   89  rm -fr init.d
+   90  cut -d: -f1 /etc/passwd | ???
+   91  cut -d: -f1,3,4 /etc/passwd | column -ts: | less
+   92  cat /etc/passwd
+   93  ping ya.ru
+   94  ping
+   95  ping 
+   96  ping 8.8.8.8
+   97  sudo is
+   98  sudo ls
+   99  sudo id
+  100  sudo less /var/log/massages
+  101  sudo less /var/log/messages
+  102  less /var/log/messages
+  103  sudo su
+  104  history
+  105  history > lab1_history.txt
+  106  ls
+  107  ls lab1_history.txt 
+  108  less lab1_history.txt 
+  109  cd
+  110  cd //
+  111  cd ..
+  112  ls
+  113  cd
+  114  pwd
+  115  cd/
+  116  cd /
+  117  ls
+  118  cd home/
+  119  ls
+  120  sudo su
+  121  reboot
+  122  reboot
+  123  git clone https://github.com/efanov/mephi.wiki.git
+  124  yum install git
+  125  su
+  126  su yum install git
+  127  su
+  128  git
+  129  git clone https://github.com/efanov/mephi.wiki.git
+  130  clear
+  131  history 
+  132  clear
+  133  mkdir test
+  134  cd test
+  135  touch file
+  136  chmod 000 file
+  137  chmod 200 file
+  138  echo "Test" > test
+  139  chmod 000 file
+  140  echo "Test" > test
+  141  ls
+  142  test
+  143  chmod 000 Test
+  144  chmod 000 test
+  145  chmod 200 test
+  146  echo "Test" > test
+  147  chmod 000 test
+  148  echo "Test" > test
+  149  chmod 240 test
+  150  chmod 640 test
+  151  ls -l test
+  152  chmod 240 test
+  153  ll test 
+  154  chmod 640 test
+  155  ls -l test
+  156  cat test 
+  157  rm test
+  158  ls
+  159  chmod 000 file
+  160  echo "Test" > file
+  161  chmod 200 file
+  162  echo "Test" > file
+  163  chmod 240 file
+  164  ll file
+  165  chmod 640 file
+  166  ls -l file
+  167  cat file 
+  168  mkdir dir
+  169  cd dir
+  170  touch new_file
+  171  echo "file 2" > new_file 
+  172  ls
+  173  cd //
+  174  cd ~
+  175  ls
+  176  test
+  177  ls
+  178  cd test
+  179  ls
+  180  chmod 664 dir
+  181  cat dir/new_file
+  182  rmdir dir/new_file
+  183  chown root file
+  184  chgrp root file 
+  185  umask 200
+  186  umask 066
+  187  rm -f file1
+  188  touch file1
+  189  ls -l file1
+  190  umask 000
+  191  ls -l file1
+  192  touch file2
+  193  ls -l file2
+  194  cd ..
+  195  history > lab2_history_igok.txt
