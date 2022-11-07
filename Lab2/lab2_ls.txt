@@ -1,7 +1,7 @@
 .:
 итого 4
 drw-rw-r--. 2 igok igok 22 ноя 07 12:27 dir
--rw-r-----. 1 root    igok  5 ноя 07 12:25 file
+-rw-r-----. 1 root igok  5 ноя 07 12:25 file
 -rw-------. 1 igok igok  0 ноя 07 11:22 file1
 -rw-rw-rw-. 1 igok igok  0 ноя 07 11:23 file2
 -rw-rw-rw-. 1 igok igok  0 ноя 07 00:32 lab2_ls.txt
