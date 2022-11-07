@@ -1,0 +1,32 @@
+    1  id
+    2  whoami
+    3  exit
+    4  yum install -y kernel-headers
+    5  rpm -qa | grep kernel
+    6  yum update kernel+
+    7  yum update kernel*
+    8  gcc
+    9  yum install -y gcc
+   10  yum install git
+   11  git 
+   12  git clone 
+   13  yum install git
+   14  exit
+   15  ls
+   16  ls test/
+   17  chown root file
+   18  touch file
+   19  chown root file
+   20  rw file
+   21  rm file
+   22  cd ~
+   23  ls
+   24  cd ..
+   25  ls
+   26  cd home
+   27  cd igok/
+   28  cd test
+   29  chown file
+   30  chown root file
+   31  cd ..
+   32  history > lab2_history_root.txt
